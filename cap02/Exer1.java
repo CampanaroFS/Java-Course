@@ -1,7 +1,10 @@
 package cap02;
 
 import java.io.*; // o Asterisco representa todas as classes do import java.io
-
+/* 
+ * Exercício 1 livro: Usando a classe BufferedReader para entrada de dados, crie uma classe que receba o valor de um produto e a porcentagem, calcule e mostre o valor do desconto e o valor do produto com desconto. 
+ * Observação: o valor do desconto é calculado por meio da fórmula: valor do desconto = valor do produto * percentual de desconto / 100.
+ * */
 public class Exer1 {
 	
 	public static void main(String[] args) {
