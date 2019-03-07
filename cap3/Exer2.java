@@ -1,7 +1,10 @@
 package cap3;
 
 import javax.swing.JOptionPane;
-
+/**
+ * Na área de eketrônica, em um circuito em série emos que a resistência equivalente (total) desse circuito obtida mediante a soma de todas as resistênciase existentes (RE = r1 + r2 + ... + rn).
+ * Façã uma classe que receba o valor de quatro resistências ligadas em série, calcule e mostre a resistência equivalente, a maior e a menor resistência.
+ */
 public class Exer2 {
 	public static void main(String[] args) {
 

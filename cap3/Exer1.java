@@ -1,7 +1,15 @@
 package cap3;
 
 import javax.swing.JOptionPane;
-
+/*
+ * Exercício 1 livro - Usando JoptionPane, elabore uma classe que receba o nome de um produto e o seu valor. O desconto deve ser calculado de acordo com o valor fornecido conforme a tabela. Utilizando a estrutura
+ * if-else, apresente e tela o nome do produto, valor original do produto e o novo valor depois de ser realizado o desconto. Caso o valor digitado seja menor que zero, deve ser emitida uma mensagem de aviso.
+ * 
+ * >= 50 e < 200 = 5%
+ * >=200 e < 500 = 6%
+ * >= 500 e < 100 = 7%
+ * <= 1000 = 8%
+ * */
 public class Exer1 {
 	public static void main(String[] args) {
 		try {

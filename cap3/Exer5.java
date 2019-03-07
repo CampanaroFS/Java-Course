@@ -1,7 +1,9 @@
 package cap3;
 
 import javax.swing.JOptionPane;
-
+/**
+ * Exercício 5 livro - Elabore uma classe que apresente uma espécie de menu usando JOptionPane. Para cada opção escolhida, execute um dos exercícios anteriores. Usando a estrutura switch case.
+ * */
 public class Exer5 {
 	public static void main(String[] args) {
 		String aux;
