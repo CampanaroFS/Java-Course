@@ -5,7 +5,7 @@ public class UsaRandom {
 		String senha = "";
 		for (int i = 1; i <= 10; i++) {
 			int num = (int) (Math.random() * 10);
-			senha += num;
+			senha += num; 
 		}
 		JOptionPane.showMessageDialog(null, "Senha gerada: " + senha);
 		
