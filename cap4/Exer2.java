@@ -16,7 +16,7 @@ public class Exer2 {
 		double price, percentage = 12.0, totalPrice;
 		String aux;
 		DecimalFormat df = new DecimalFormat();
-		df.applyPattern("R$ ##0,00");
+		df.applyPattern("R$ 00.00");
 		
 		do {
 		aux = JOptionPane.showInputDialog("Digite o preço do produto");
@@ -25,7 +25,7 @@ public class Exer2 {
 		if(price != 0.0) {
 		totalPrice = price + (price * percentage) / 100;
 		
-		JOptionPane.showMessageDialog(null, "Valor com acrescimo é: " + totalPrice + "\nValor Arredondado: " + Math.round(totalPrice));
+		JOptionPane.showMessageDialog(null, "Valor com acrescimo é: " + df.format(totalPrice) + "\nValor Arredondado: " + df.format(Math.round(totalPrice)));
 		}
 		} while(price != 0);
 		
