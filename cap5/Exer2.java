@@ -1,3 +1,7 @@
+/**
+ * Exercício 2 livro - Crie uma classe que armazene os 12 meses do ano em um array. A seguir, gere um valor randômico entre 0 a 11 e apresente o mês correspondente ao valor sorteado. Considere que o valor 0 corresponde
+ * ao mês de janeiro e o valor 11, ao mês de dezembro
+ * */
 package cap5;
 
 import javax.swing.JOptionPane;

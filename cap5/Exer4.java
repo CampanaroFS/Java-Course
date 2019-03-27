@@ -1,3 +1,9 @@
+/**
+ * Exercício 4 livro - Faça uma classe contendo dois arrays do tipo inteiro, um chamado par e outro chamado ímpar. Cada array deve conter 10 elementos.
+ * A seguir, faça um laço de repetição com 10 iterações e que contenha internamente a geração randômica de números entre 1 a 20. Se i valor gerado for par, armazene no array chamado par, caso
+ * contrário, no array chamado impar. Ao final, apresente o conteúdo de cada um dos arrays.
+ * */
+
 package cap5;
 
 import java.util.Arrays;
@@ -13,14 +19,10 @@ public class Exer4 {
 				valor = (int) (Math.random() * 100);
 			} while (valor > 20);
 			
-			int y = 0;
-			int z = 0;
 			if(valor % 2 == 0) {
-					par[y] = valor;
-					y++;
+					par[i] = valor;
 			} else {
-					impar[z] = valor;
-					z++;
+					impar[i] = valor;
 			}
 			
 		}
